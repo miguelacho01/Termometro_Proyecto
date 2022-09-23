@@ -30,7 +30,7 @@ input{
 
 .termometro{
     border: solid 1px black;
-    width: 400px;
+    width: 200px;
     height: 30px;
     background-color: white;
     display: flex;
@@ -46,5 +46,16 @@ input{
 }
 
 .termometro{
-   flex-direction: column;
+    margin-top: 20px;
+    /* transform: rotate(270deg) */
+}
+
+.reset{
+height: 50px;
+width: 100px;
+border-radius: 20px;
+margin-top: 10px;
+}
+.reset:hover{
+    background-color: brown;
 }
