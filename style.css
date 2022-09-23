@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+body{
+    height: 500px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 300px;
+    background-color: aliceblue;
+    padding: 70px;
+    border-radius: 15px;
+}
+
+input{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: solid 2px #d2d2;
+}
+
+.termometro{
+    border: solid 1px black;
+    width: 400px;
+    height: 30px;
+    background-color: white;
+    display: flex;
+
+}
+
+.mercurio{
+    border: solid 1px red;
+    background-color:red;
+    height: 28px;
+    width: 1px;
+    align-items: center;
+}
+
+.termometro{
+   flex-direction: column;
+}
